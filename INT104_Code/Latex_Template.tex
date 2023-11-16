@@ -1,0 +1,89 @@
+\documentclass[10pt,twocolumn]{article}
+
+\usepackage[utf8]{inputenc}
+% \documentclass{article}
+\usepackage{layout}
+
+
+\usepackage[left=2cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry}
+\setlength{\columnsep}{0.2in}
+\usepackage{graphicx}
+
+\renewcommand{\baselinestretch}{1}
+
+\begin{document}
+\begin{titlepage}
+    \begin{center}
+    % 	HEADING & LOGO
+        \begin{figure}[h]
+	        \centering
+	        \includegraphics[scale=1]{XJTLU.png}
+        \end{figure}
+        \textsc{
+        % \\[1cm]代表中间空1cm高度
+        \\[2.5cm]
+        % \\Huge代表临时改变字号大小，以及Large, LARGE, HUGE
+            \Huge{INT104 Coursework 2 Report Guidance}\\[2.5cm]
+            \LARGE
+        %  Author Name
+            Sample Student (1234567)
+        \\[1cm]
+        Lab-A-Group-1
+    \\[1cm]
+    {\today}\\[.5cm]
+}
+    \end{center}
+\end{titlepage}
+
+\section{Introduction}
+This is the template of INT104 Coursework 2 report. You have to follow the requirement on LMO to complete the tasks. \textbf{You have to complete the report in 8 pages}, exclude abstract, reference, and appendix. 
+
+\subsection{Page Format}
+The report should have a cover, which shows your project title, name, ID number, Group Number, and date. The recommended font is \textit{Times New Roman}, 10-11pt. The recommended page format is two columns, 2cm margins for left and right edges, 2.54cm margins for top and bottom edges, 1-1.25 line space, with page number at the bottom. \textbf{It is OK to use your own format if you think yours looks better.}
+
+\subsection{Reference Format}
+\textbf{This report does not limit the format of reference}. \textit{IEEE}, \textit{APA}, or \textit{Harvard} are all acceptable. Just make sure you have the correct citation format.
+
+\subsection{Introduction Part}
+In introduction or abstract part, you may have the following content:
+\begin{enumerate}
+    \item Briefly describe the requirement of this coursework
+    \item What classifiers you have built
+    \item What is the result.
+\end{enumerate}
+
+You \textbf{don't} have to write too much background knowledge. Just include the necessary background and literature review, depends on you.
+
+
+\section{Dimensionality reduction}
+Section 2, 3, and 4 refers to the 3 tasks in this coursework. \textbf{You need to avoid putting screenshots of your code directly in the report}. Instead, clear plots made by \textit{matplotlib} or \textit{Excel} would be better choices.
+Your report should include, but not limited to the following content:
+\begin{enumerate}
+    \item Please generally introduce the dimensionality reduction algorithm you chosen, such as Principal Component Analysis (PCA). And how the number of feature dimension decided? 
+    \item With the presented data, the cumulative sum of explained variance ratio of each principal component could be presented. Data visualization will be recommended.
+\end{enumerate}
+
+\section{Training Classifiers in a Supervised Way}
+For classifiers, it is recommended to do multiple experiments to compare the difference, for example: different input data for one classifier, changing the variables for a classifier, or the same data for different classifiers. \textbf{An evaluation part is necessary for each classifier.}
+You may answer the following questions:
+
+\begin{enumerate}
+    \item Which classifiers (no more than five, no less than three) have you tried in this task? Please generally introduce the classifiers you used.
+    \item With knowledge obtained in the previous task, in which way your data is pre-processed as the input of the three classifiers?
+    \item How are the classifiers trained? How are the classifiers used for inference processes? 
+    \item How do you perform cross validation for the classifiers? What the results of the resulting classifiers are? Give the evaluation for your classifiers.
+\end{enumerate}
+
+\section{Unsupervised Classification}
+You may answer the following questions.
+
+\begin{enumerate}
+    \item Select ONE unsupervised classifier to try. Please generally introduce the classifier you used.
+    \item Please give the full details of the unsupervised classification processes.
+    \item Attempt to interpret how the students are grouped according to the resulting classifier.
+\end{enumerate}
+
+\section{Conclusion}
+\textbf{Clear results and independent point of view are the key to getting a high score}.
+
+\end{document}
